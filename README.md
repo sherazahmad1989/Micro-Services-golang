@@ -14,7 +14,7 @@ git clone https://github.com/sherazahmad1989/fullstack.git
 
 install MYSQL and add the connection to  .env
 
-after the above stop run the following cammand in main folder 
+after the above step run the following cammand in main folder 
 
 ```bash
 go run maing.go
