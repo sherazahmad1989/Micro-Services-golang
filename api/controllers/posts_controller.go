@@ -86,7 +86,6 @@ func (server *Server) GetPost(w http.ResponseWriter, r *http.Request) {
 func (server *Server) UpdatePost(w http.ResponseWriter, r *http.Request) {
 
 	vars := mux.Vars(r)
-
 	// Check if the post id is valid
 	pid, err := strconv.ParseUint(vars["id"], 10, 64)
 	if err != nil {
