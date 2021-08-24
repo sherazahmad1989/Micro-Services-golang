@@ -17,7 +17,7 @@ install MYSQL and add the connection to  .env
 after the above step run the following cammand in main folder 
 
 ```bash
-go run maing.go
+go run main.go
 ```
 
 
